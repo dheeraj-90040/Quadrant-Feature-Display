@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 15px;
+    background-color: var(--primary--);
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --primary--: hsl(0, 0%, 98%);
+    --secondry--: hsl(234, 12%, 34%);
+    --light_txt--: hsl(229, 6%, 66%);
+    --red--: hsl(0, 78%, 62%);
+    --Cyan--: hsl(180, 62%, 55%);
+    --Orange--: hsl(34, 97%, 64%);
+    --Blue--: hsl(212, 86%, 64%);
+}
+
+
+
+.container {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+}
+
+
+.container .text_area {
+    margin: 2rem 0;
+}
+
+.container .text_area h5 {
+    font-size: 28px;
+    text-align: center;
+    color: var(--secondry--);
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .text_area h3 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--secondry--);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .text_area p {
+    font-weight: 200;
+    color: var(--light_txt--);
+    font-family: 'Poppins', sans-serif;
+    width: 500px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+
+
+.container .row_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.box {
+    background-color: var(--primary--);
+    padding: 1.5rem;
+    border-radius: 7px;
+    height: 260px;
+    width: 400px;
+    position: relative;
+    border-top: 5px solid var(--Cyan--);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.box .txt {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.box p {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 250px;
+    padding-bottom: 20px;
+    color: var(--light_txt--);
+}
+
+.box img {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+.container .col_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.b2 {
+    border-top: 5px solid var(--red--);
+}
+
+.b2 p {
+    width: 300px;
+}
+
+.b3 p {
+    width: 250px;
+}
+
+.b4 p {
+    width: 250px;
+}
+
+.b3 {
+    border-top: 5px solid var(--Orange--);
+}
+
+.b4 {
+    border-top: 5px solid var(--Blue--);
+}
+
+
+footer {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+footer .attribution {
+    font-size: 10px;
+}
